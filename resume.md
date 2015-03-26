@@ -1,9 +1,9 @@
 # Evan Dower
 #### Software Development Engineer
 
-> [resume@evandower.com](mailto:resume@evandower.com)
-> (717) 673-8268
-> Seattle, WA
+> [resume@evandower.com](mailto:resume@evandower.com)  
+> (717) 673-8268  
+> Seattle, WA  
 
 ## Experience
 
@@ -22,6 +22,6 @@
 
 ## Education
 
-University of Washington, Seattle
-Bachelor of Science (B.S.), Computer Science
-2001 - 2005
+University of Washington, Seattle  
+Bachelor of Science (B.S.), Computer Science  
+2001 - 2005  
