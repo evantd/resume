@@ -18,7 +18,7 @@
 #### Software Development Engineer (Developer Productivity Tools) - December 2006 to present
 
 * Worked as part of a team to implement a code browser with innovative features such as "always-on blame", visual DAGs, elegant client-side change views, commenting, and pull-requests. *Ruby on Rails, Angular, Java, Git, NoSQL (DynamoDB)*
-* Worked as part of team to implement highly available, horizontally scalable revision control, currently supporting ~300k Git repositories. *Java, Distributed Systems, Git, Oracle*
+* Worked as part of team to implement highly available, horizontally scalable revision control, currently supporting >300k Git repositories. *Java, Distributed Systems, Git, Oracle*
 * Led a team to implement a system supporting company-wide continuous deployment, modelling and automating ~40k release processes. *Java, Ruby on Rails, Oracle*
 * Owned internal revision control systems, including implementation of a hot standby. My depth of understanding allowed Amazon to terminate their support contract with Perforce, saving ~$1M per year. *Perforce, Perl*
 * Owned multiple generations of internal code review systems, including gathering requirements and designing features. The latest generation serves >10k users across the company. *Python, Java, Perl/Mason, MySQL*
