@@ -17,6 +17,7 @@
 * Worked as part of team to implement highly available, horizontally scalable revision control, currently supporting ~200k repositories. *Java, Distributed Systems*
 * Worked as part of a team to implement a code browser with innovative features such as "always-on blame", visual DAGs, and elegant client-side change views. *Ruby on Rails, Java*
 * Received an overall performance rating of "Exceeds Expectations" 5 out of 10 years.
+* Mentored several interns leading to successful full-time hires.
 
 #### Software Development Engineer (Ordering) - March 2005 to December 2006
 
