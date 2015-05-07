@@ -9,19 +9,18 @@
 
 ### Amazon, Seattle, WA
 
-#### Software Development Engineer (Position-Independent Overview) - March 2005 to present
-
-* Mentored several interns leading to successful full-time hires.
-* Received an overall performance rating of "Exceeds Expectations" 5 out of 10 years.
-* Designed, implemented, and maintained numerous large-scale database-backed web services using a variety of languages, frameworks, and database backends.
+In my decade at Amazon, I've grown into a full-stack developer, owning (gathering requirements, designing, developing, monitoring, & maintaining) libraries, services, DB schemas, distributed systems, websites, & single-page apps. I've demonstrated leadership by mentoring interns & junior engineers, leading to hires and promotions. Furthermore, I've been liked and respected by my peers and customers due to my tact, CS fundamentals, quality-focus, breadth of knowledge of company-wide systems, and ability to dive deep & resolve complex/hidden root causes even in unfamiliar systems.
 
 #### Software Development Engineer (Developer Productivity Tools) - December 2006 to present
 
-* Worked as part of a team to implement a code browser with innovative features such as "always-on blame", visual DAGs, elegant client-side change views, commenting, and pull-requests. *Ruby on Rails, Angular, Java, Git, NoSQL (DynamoDB)*
-* Worked as part of team to implement highly available, horizontally scalable revision control, currently supporting >300k Git repositories. *Java, Distributed Systems, Git, Oracle*
+In reverse-chronological order:
+* Worked as part of a team to implement a code browser (think "GitHub for Amazon") with innovative features such as "always-on blame", visual DAGs, elegant client-side change views, commenting, and pull-requests. *Ruby on Rails, AngularJS, CoffeeScript, Java, Git, NoSQL (DynamoDB)*
+* Worked as part of team to implement highly available, horizontally scalable revision control, currently supporting >300k Git repositories for >10k developers. *Java, Distributed Systems, Git, Oracle*
+* Designed & built an authorization system to model access control while abstracting the backend in order to protect clients from changes in a space that has historically shown substantial volatility.
 * Led a team to implement a system supporting company-wide continuous deployment, modelling and automating ~40k release processes. *Java, Ruby on Rails, Oracle*
-* Owned internal revision control systems, including implementation of a hot standby. My depth of understanding allowed Amazon to terminate their support contract with Perforce, saving ~$1M per year. *Perforce, Perl*
-* Owned multiple generations of internal code review systems, including gathering requirements and designing features. The latest generation serves >10k users across the company. *Python, Java, Perl/Mason, MySQL*
+* Improved deployment scheduling algorithm from O(n^3) to O(n^2), allowing Amazon to scale deployment capacity to handle Q4 loads, allowing development to continue and potentially saving many millions of dollars.
+* Owned internal revision control systems, including implementation of monitoring, throttling, and a hot standby system. The depth of understanding I was able to reverse-engineer allowed Amazon to terminate their support contract with Perforce, saving ~$1M per year. *Perforce, Perl*
+* Owned multiple generations of internal code review systems, including gathering requirements and designing features. The latest generation handles ~6k CRs per day and serves >10k users across the company. *Python, Java, Perl/Mason, MySQL*
 
 #### Software Development Engineer (Ordering) - March 2005 to December 2006
 
