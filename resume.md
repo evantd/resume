@@ -1,7 +1,7 @@
 # Evan Dower
 #### Software Development Engineer
 
-> [resume@evandower.com](mailto:resume@evandower.com)  
+> resume@evandower.com  
 > (717) 673-8268  
 > Seattle, WA  
 
