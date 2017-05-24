@@ -9,11 +9,11 @@
 
 ### Indeed, Seattle, WA
 
-#### Lead Software Engineer (Question) - August 2015 to present
+#### Lead Software Engineer (Questions) - August 2015 to present
 
 ### Amazon, Seattle, WA
 
-In my decade at Amazon, I've grown into a full-stack developer, owning (gathering requirements, designing, developing, monitoring, & maintaining) libraries, services, DB schemas, distributed systems, websites, & single-page apps. I've demonstrated leadership by mentoring interns & junior engineers, leading to hires and promotions. Furthermore, I've been liked and respected by my peers and customers due to my tact, CS fundamentals, quality-focus, breadth of knowledge of company-wide systems, and ability to dive deep & resolve complex/hidden root causes even in unfamiliar systems.
+In my decade at Amazon, I grew into a full-stack developer, owning (gathering requirements, designing, developing, monitoring, & maintaining) libraries, services, DB schemas, distributed systems, websites, & single-page apps. I demonstrated leadership by mentoring interns & junior engineers, leading to hires and promotions. Furthermore, I was liked and respected by my peers and customers due to my tact, CS fundamentals, quality-focus, breadth of knowledge of company-wide systems, and ability to dive deep & resolve complex/hidden root causes even in unfamiliar systems.
 
 #### Software Development Engineer (Developer Productivity Tools) - December 2006 to July 2015
 
