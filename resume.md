@@ -1,5 +1,4 @@
-# Evan Dower
-#### Software Development Engineer
+# Evan Dower, Lead Software Engineer
 
 > github-resume@evandower.com  
 > (717) 673-8268  
