@@ -1,7 +1,7 @@
 # Evan Dower
 #### Software Development Engineer
 
-> resume@evandower.com  
+> github-resume@evandower.com  
 > (717) 673-8268  
 > Seattle, WA  
 
@@ -9,7 +9,22 @@
 
 ### Indeed, Seattle, WA
 
-#### Lead Software Engineer (Questions) - August 2015 to present
+At Indeed, I grew my design skills as well as my leadership & mentorship skills.
+
+#### Lead Software Engineer (Questions team) - August 2015 to present
+
+Leadership:
+* Worked with product management to collaboratively define data-driven quarterly goals.
+* Led a team of 6 engineers to track & meet those goals.
+* Helped team-members develop their skills and advance their careers.
+* Participated constructively in design reviews
+* Interviewed candidates in coding/problem-solving interviews as well as architecture interviews.
+
+Individual Contributions:
+* Demonstrated proof-of-concept for increasing job requirement suggestion acceptance rate by 15%.
+* Designed & implemented client-focused data-driven API to help decouple client & service changes.
+* Introduced numerous best-practices and tools to reduce coding errors (Immutables, Jackson, Fongo, Checkstyle, Spring-Data-MongoDB, AssertJ, etc.), and guided teams across the company in their use.
+* Dug deep into other teams' code in order to address production issues as well as internal productivity issues.
 
 ### Amazon, Seattle, WA
 
