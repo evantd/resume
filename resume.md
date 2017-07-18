@@ -64,3 +64,6 @@ I ask what I suspect are some unusual questions about potential positions in ord
 * Can you share attrition/retention rates?
 * How do you encourage diversity in the workplace?
 * What shape is the compensation package? That is, what proportion of total compensation tends to be covered by salary, bonuses, & stocks?
+
+## Salary Range
+A competitive offer for my services will involve total compensation over $250k.
