@@ -64,6 +64,8 @@ I ask what I suspect are some unusual questions about potential positions in ord
 * Can you share attrition/retention rates?
 * How do you encourage diversity in the workplace?
 * What shape is the compensation package? That is, what proportion of total compensation tends to be covered by salary, bonuses, & stocks?
+* What is your PTO policy?
+* What is your policy regarding personal projects & open source?
 
 ## Salary Range
-A competitive offer for my services will involve total compensation over $250k.
+I'm currently earning ~$250k/year, and I'm happy in my current position, so a compelling offer would need to beat that by a significant margin while also providing an excellent work environment.
