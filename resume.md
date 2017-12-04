@@ -41,10 +41,10 @@ Leadership:
 * Interviewed candidates in coding/problem-solving interviews as well as architecture interviews.
 
 Individual Contributions:
-* Demonstrated proof-of-concept for increasing job requirement suggestion acceptance rate by 15%.
-* Designed & implemented client-focused data-driven API to help decouple client & service changes.
-* Introduced numerous best-practices and tools to reduce coding errors (Immutables, Jackson, Fongo, Checkstyle, Spring-Data-MongoDB, AssertJ, etc.), and guided teams across the company in their use.
-* Dug deep into other teams' code in order to address production issues as well as internal productivity issues.
+* Demonstrated proof-of-concept for increasing job requirement suggestion acceptance rate by 15%. *A/B testing*
+* Designed & implemented client-focused data-driven API to help decouple client & service changes. *Java, Spring, Jackson, Protobuf*
+* Introduced numerous best-practices and tools to reduce coding errors, and guided teams across the company in their use. *Immutables, Jackson, Fongo, Checkstyle, Spring-Data-MongoDB, AssertJ*
+* Dug deep into other teams' code in order to address production issues as well as internal productivity issues. *Python, Django, Java*
 
 ### Amazon, Seattle, WA
 
