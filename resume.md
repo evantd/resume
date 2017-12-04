@@ -8,14 +8,35 @@
 
 ### Indeed, Seattle, WA
 
-At Indeed, I grew my design skills as well as my leadership & mentorship skills.
+At Indeed, I grew my leadership, mentorship, and architecture skills.
 
-#### Lead Software Engineer (Questions team) - August 2015 to present
+#### Software Engineer / Technical Delivery Manager (SMB Hiring) - July 2017 to present
+
+Responsibilities:
+* manage the performance & development of 6 software engineers to help them grow to their potential
+* get buy-in from the team to initiate development processes and promote best practices to ensure team efficiency
+* guide coordination with our cross-functional team members:
+  * 1 designer
+  * 1 quality assurance engineer
+  * 1 data scientist
+  * 2 product managers
+* collaborate with other teams to help them & us achieve business goals
+* work with other teams to form cross-organization plans
+* guide business & technical direction of the team
+* provide input to design reviews throughout the company
+
+#### Software Engineer / Tech Lead (SMB Hiring) - January 2017 to June 2017
+
+Responsiblities:
+* guide the technical direction of the team
+* mentor 4 software engineers to help them grow their technical skills
+* collaborate with other teams to help them & us achieve business goals
+
+#### Software Engineer (SMB Hiring) - August 2015 to December 2016
 
 Leadership:
 * Worked with product management to collaboratively define data-driven quarterly goals.
-* Led a team of 6 engineers to track & meet those goals.
-* Helped team-members develop their skills and advance their careers.
+* Led a team of 4 engineers to track & meet those goals.
 * Participated constructively in design reviews
 * Interviewed candidates in coding/problem-solving interviews as well as architecture interviews.
 
