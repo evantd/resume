@@ -18,6 +18,6 @@ I ask what I suspect are some unusual questions about potential positions in ord
 I'm currently earning >$260k/year, and I'm happy in my current position, so a compelling offer would need to beat that by a significant margin while also providing an excellent work environment with great opportunities & support for growth.
 
 Current breakdown:
-* $185k base
-* 18% quarterly bonuses
+* $198,500 base
+* 10% quarterly bonuses (or more)
 * LTIPs vesting at $40-70k per year
