@@ -1,16 +1,22 @@
-# Evan Dower, Lead Software Engineer
+# Evan Dower, Senior Software Engineer
 
 > github-resume@evandower.com  
 > (717) 673-8268  
-> Seattle, WA  
+> Remote
 
 ## Experience
 
 ### Indeed, Seattle, WA
 
-At Indeed, I grew my leadership, mentorship, and architecture skills.
+At Indeed, I grew my leadership, mentorship, architecture, and frontend skills. I gave management a try for a couple years. The work felt valuable & important, but I missed the satisfaction and day-to-day feelings of accomplishment that come with individual contribution. When transitioning back from management to IC work, I took the opportunity to change domains and learn new skills by moving to a frontend-focused team.
 
-#### Software Engineer / Technical Delivery Manager (SMB Hiring) - July 2017 to present
+#### Senior Software Engineer (Frontend Core) - April 2019 to present
+
+Responsibilities
+* build & productionize micro-frontend framework, decoupling content providers & consuming webapps to allow both to iterate quickly & independently
+* own global header used across almost all Indeed pages & webapps while expanding coverage and iterating on content
+
+#### Software Engineer / Technical Delivery Manager (SMB Hiring) - July 2017 to March 2019
 
 Responsibilities:
 * manage the performance & development of 6 software engineers to help them grow to their potential
