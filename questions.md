@@ -1,8 +1,10 @@
 ## Questions For You
 
 I ask what I suspect are some unusual questions about potential positions in order to help decide if the job & I are a good match. Here's a sample of the sort of thing you should be prepared for:
-* How big is the software engineering organization? How big is the Seattle office?
-* How do you support collaboration within & between offices?
+* How big is the software engineering organization?
+* How do you support remote workers?
+* Which cities have offices, and how big are they?
+* How do you support collaboration within & between locations?
 * What does the tech stack looks like? What are the main values driving those tech choices?
 * What does the build/deploy/provisioning infrastructure look like, and what values drive those processes?
 * What business & technical problems are being solved? Who are the primary customers/users/stakeholders?
@@ -10,7 +12,7 @@ I ask what I suspect are some unusual questions about potential positions in ord
 * What do the review, promotion, and raise processes look like?
 * Can you share attrition/retention rates?
 * How do you encourage diversity in the workplace?
-* What shape is the compensation package? That is, what proportion of total compensation tends to be covered by salary, bonuses, & stocks?
+* What shape is the compensation package? That is, what proportion of total compensation tends to be covered by salary, bonuses, & stocks/LTIPs/equity?
 * What is your PTO policy?
 * What is your policy regarding personal projects & open source?
 
