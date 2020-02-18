@@ -17,9 +17,9 @@ I ask what I suspect are some unusual questions about potential positions in ord
 * What is your policy regarding personal projects & open source?
 
 ## Salary Range
-I'm currently earning >$260k/year, and I'm happy in my current position, so a compelling offer would need to beat that by a significant margin while also providing an excellent work environment with great opportunities & support for growth.
+I'm currently earning >$280k/year, and I'm happy in my current position, so a compelling offer would need to beat that by a significant margin while also providing an excellent work environment with great opportunities & support for growth.
 
 Current breakdown:
-* $198,500 base
+* $202,500 base
 * 10% quarterly bonuses (or more)
-* LTIPs vesting at $40-70k per year
+* LTIPs vesting at $50-70k per year
