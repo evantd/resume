@@ -1,6 +1,7 @@
 ## Questions For You
 
 I ask what I suspect are some unusual questions about potential positions in order to help decide if the job & I are a good match. Here's a sample of the sort of thing you should be prepared for:
+* Can you sponsor a New Zealand visa?
 * How big is the software engineering organization?
 * How do you support remote workers?
 * Which cities have offices, and how big are they?
@@ -17,9 +18,10 @@ I ask what I suspect are some unusual questions about potential positions in ord
 * What is your policy regarding personal projects & open source?
 
 ## Salary Range
-I'm currently earning >$280k/year, and I'm happy in my current position, so a compelling offer would need to beat that by a significant margin while also providing an excellent work environment with great opportunities & support for growth.
+I'm currently earning >$300k/year, and I'm happy in my current position, so a compelling offer would need to beat that by a significant margin while also providing an excellent work environment with great opportunities & support for growth. I may entertain reduced monetary compensation in exchange for New Zealand visa sponsorship.
 
 Current breakdown:
-* $202,500 base
+* $211,140 base
 * 10% quarterly bonuses (or more)
-* LTIPs vesting at $50-70k per year
+* LTIPs vesting at >$120k per year
+* RSUs vesting at >$65k
