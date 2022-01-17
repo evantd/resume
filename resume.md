@@ -17,14 +17,14 @@ At Indeed, I grew my leadership, mentorship, architecture, and frontend skills. 
 #### Staff Software Engineer (Frontend Platforms) - April 2019 to present
 
 * quickly ramp up on frontend tech & best practices
-* build & productionize micro-frontend framework, decoupling content providers & consuming webapps to allow both to iterate quickly & independently
+* build & productionize micro-frontend framework, decoupling hundreds of content provider teams & dozens of consuming webapp teams to allow both to iterate quickly & independently
 * own global header used across almost all Indeed pages & webapps while expanding coverage, iterating on content, and rewriting to take advantage of Indeed's new design system
 * improve automated testing and streamline release processes in order to achieve full push-on-green CI/CD
 * provide a platform for delivering non-UI capabilities (e.g. observability, cookie compliance, etc.) across all Indeed products
 * improve performance of data analysis pipeline by >10x while also improving correctness
 * improve performance impact & safety of global navigation header, including reducing initial bundle size by 48%, improving isolation, and using module federation to enable dependency sharing
 * quickly investigate & address high severity production issues
-* advise & mentor teammates and other engineers across the company
+* advise & mentor teammates and other engineers across the company, including helping them break work into incremental deliverables, prioritizing early risk-discovery & risk-reduction
 * tech used: JavaScript, TypeScript, NodeJS, React, Emotion, Webpack, Cypress, Java, Spark (Scala)
 
 #### Software Engineer / Technical Delivery Manager (SMB Hiring) - July 2017 to March 2019
