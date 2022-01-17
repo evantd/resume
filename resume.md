@@ -4,7 +4,6 @@
 > (717) 673-8268  
 > Remote/Seattle, seeking visa sponsorship and relocation to New Zealand
 
-Qualities:
 * rapidly delivers results even in new domains due to quickly gaining in-depth knowledge
 * delivers incrementally, with a focus on using data to determine whether further investment makes business sense
 * supports team cohesion & productivity by supporting teammates' growth
@@ -17,7 +16,6 @@ At Indeed, I grew my leadership, mentorship, architecture, and frontend skills. 
 
 #### Staff Software Engineer (Frontend Platforms) - April 2019 to present
 
-Responsibilities:
 * quickly ramp up on frontend tech & best practices
 * build & productionize micro-frontend framework, decoupling content providers & consuming webapps to allow both to iterate quickly & independently
 * own global header used across almost all Indeed pages & webapps while expanding coverage, iterating on content, and rewriting to take advantage of Indeed's new design system
@@ -30,7 +28,6 @@ Responsibilities:
 
 #### Software Engineer / Technical Delivery Manager (SMB Hiring) - July 2017 to March 2019
 
-Responsibilities:
 * manage the performance & development of 6 software engineers to help them grow to their potential
 * get buy-in from the team to initiate development processes and promote best practices to ensure team efficiency
 * guide coordination with our cross-functional team members, including 1 designer, 1 quality assurance engineer, 1 data scientist, & 2 product managers
@@ -41,7 +38,6 @@ Responsibilities:
 
 #### Senior Software Engineer / Tech Lead (SMB Hiring) - January 2017 to June 2017
 
-Responsiblities:
 * guide the technical direction of the team
 * mentor 4 software engineers to help them grow their technical skills
 * collaborate with other teams to help them & us achieve business goals
@@ -49,12 +45,14 @@ Responsiblities:
 #### Software Engineer (SMB Hiring) - August 2015 to December 2016
 
 Leadership:
+
 * Worked with product management to collaboratively define data-driven quarterly goals.
 * Led a team of 4 engineers to track & meet those goals.
 * Participated constructively in design reviews
 * Interviewed candidates in coding/problem-solving interviews as well as architecture interviews.
 
 Individual Contributions:
+
 * Demonstrated proof-of-concept for increasing job requirement suggestion acceptance rate by 15%. *A/B testing*
 * Designed & implemented client-focused data-driven API to help decouple client & service changes. *Java, Spring, Jackson, Protobuf*
 * Introduced numerous best-practices and tools to reduce coding errors, and guided teams across the company in their use. *Immutables, Jackson, Fongo, Checkstyle, Spring-Data-MongoDB, AssertJ*
@@ -67,6 +65,7 @@ In my decade at Amazon, I grew into a full-stack developer, owning (gathering re
 #### Software Development Engineer (Developer Productivity Tools) - December 2006 to July 2015
 
 In reverse-chronological order:
+
 * Worked as part of a team to implement a code browser (think "GitHub for Amazon") with innovative features such as "always-on blame", visual DAGs, elegant client-side change views, commenting, and pull-requests. *Ruby on Rails, AngularJS, CoffeeScript, Java, Git, NoSQL (DynamoDB)*
 * Worked as part of team to implement highly available, horizontally scalable revision control, supporting >300k Git repositories for >10k developers. *Java, Distributed Systems, Git, Oracle*
 * Designed & built an authorization system to model access control while abstracting the backend in order to protect clients from changes in a space that has historically shown substantial volatility.
