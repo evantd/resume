@@ -25,6 +25,7 @@ At Indeed, I grew my leadership, mentorship, architecture, and frontend skills. 
 * improve performance impact & safety of global navigation header, including reducing initial bundle size by 48%, improving isolation, and using module federation to enable dependency sharing
 * quickly investigate & address high severity production issues
 * advise & mentor teammates and other engineers across the company
+* tech used: JavaScript, TypeScript, NodeJS, React, Emotion, Webpack, Cypress, Java, Spark (Scala)
 
 #### Software Engineer / Technical Delivery Manager (SMB Hiring) - July 2017 to March 2019
 
