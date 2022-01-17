@@ -1,8 +1,13 @@
-# Evan Dower, Senior Software Engineer
+# Evan Dower, Staff Software Engineer
 
 > github-resume@evandower.com  
 > (717) 673-8268  
-> Remote
+> Remote/Seattle, seeking visa sponsorship and relocation to New Zealand
+
+Qualities:
+* rapidly delivers results even in new domains due to quickly gaining in-depth knowledge
+* delivers incrementally, with a focus on using data to determine whether further investment makes business sense
+* supports team cohesion & productivity by supporting teammates' growth
 
 ## Experience
 
@@ -10,28 +15,31 @@
 
 At Indeed, I grew my leadership, mentorship, architecture, and frontend skills. I gave management a try for a couple years. The work felt valuable & important, but I missed the satisfaction and day-to-day feelings of accomplishment that come with individual contribution. When transitioning back from management to IC work, I took the opportunity to change domains and learn new skills by moving to a frontend-focused team.
 
-#### Senior Software Engineer (Frontend Core) - April 2019 to present
+#### Staff Software Engineer (Frontend Platforms) - April 2019 to present
 
-Responsibilities
+Responsibilities:
+* quickly ramp up on frontend tech & best practices
 * build & productionize micro-frontend framework, decoupling content providers & consuming webapps to allow both to iterate quickly & independently
-* own global header used across almost all Indeed pages & webapps while expanding coverage and iterating on content
+* own global header used across almost all Indeed pages & webapps while expanding coverage, iterating on content, and rewriting to take advantage of Indeed's new design system
+* improve automated testing and streamline release processes in order to achieve full push-on-green CI/CD
+* provide a platform for delivering non-UI capabilities (e.g. observability, cookie compliance, etc.) across all Indeed products
+* improve performance of data analysis pipeline by >10x while also improving correctness
+* improve performance impact & safety of global navigation header, including reducing initial bundle size by 48%, improving isolation, and using module federation to enable dependency sharing
+* quickly investigate & address high severity production issues
+* advise & mentor teammates and other engineers across the company
 
 #### Software Engineer / Technical Delivery Manager (SMB Hiring) - July 2017 to March 2019
 
 Responsibilities:
 * manage the performance & development of 6 software engineers to help them grow to their potential
 * get buy-in from the team to initiate development processes and promote best practices to ensure team efficiency
-* guide coordination with our cross-functional team members:
-  * 1 designer
-  * 1 quality assurance engineer
-  * 1 data scientist
-  * 2 product managers
+* guide coordination with our cross-functional team members, including 1 designer, 1 quality assurance engineer, 1 data scientist, & 2 product managers
 * collaborate with other teams to help them & us achieve business goals
 * work with other teams to form cross-organization plans
 * guide business & technical direction of the team
 * provide input to design reviews throughout the company
 
-#### Software Engineer / Tech Lead (SMB Hiring) - January 2017 to June 2017
+#### Senior Software Engineer / Tech Lead (SMB Hiring) - January 2017 to June 2017
 
 Responsiblities:
 * guide the technical direction of the team
@@ -60,7 +68,7 @@ In my decade at Amazon, I grew into a full-stack developer, owning (gathering re
 
 In reverse-chronological order:
 * Worked as part of a team to implement a code browser (think "GitHub for Amazon") with innovative features such as "always-on blame", visual DAGs, elegant client-side change views, commenting, and pull-requests. *Ruby on Rails, AngularJS, CoffeeScript, Java, Git, NoSQL (DynamoDB)*
-* Worked as part of team to implement highly available, horizontally scalable revision control, currently supporting >300k Git repositories for >10k developers. *Java, Distributed Systems, Git, Oracle*
+* Worked as part of team to implement highly available, horizontally scalable revision control, supporting >300k Git repositories for >10k developers. *Java, Distributed Systems, Git, Oracle*
 * Designed & built an authorization system to model access control while abstracting the backend in order to protect clients from changes in a space that has historically shown substantial volatility.
 * Led a team to implement a system supporting company-wide continuous deployment, modelling and automating ~40k release processes. *Java, Ruby on Rails, Oracle*
 * Improved deployment scheduling algorithm from O(n^3) to O(n^2), allowing Amazon to scale deployment capacity to handle Q4 loads, allowing development to continue and potentially saving many millions of dollars.
