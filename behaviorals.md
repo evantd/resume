@@ -1,5 +1,6 @@
+## Tell us about a tough software engineering problem and how you solved it.
 <details>
-<summary><b>Tell us about a tough software engineering problem, and how you solved it.</b></summary>
+<summary>Response</summary>
 
 ### Situation
 
