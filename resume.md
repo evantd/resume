@@ -23,6 +23,8 @@ At Indeed, I grew my leadership, mentorship, architecture, and frontend skills. 
 * provide a platform for delivering non-UI capabilities (e.g. observability, cookie compliance, etc.) across all Indeed products
 * improve performance of data analysis pipeline by >10x while also improving correctness
 * improve performance impact & safety of global navigation header, including reducing initial bundle size by 48%, improving isolation, and using module federation to enable dependency sharing
+* facilitate smooth adoption of module federation across Indeed by building libraries that act as guard-rails around the core features of module federation, which have lots of sharp edges, including [fixing bugs in webpack itself](https://github.com/webpack/webpack/pull/16031)
+* drive performance improvements on our highest traffic pages in order to improve both UX & SEO
 * quickly investigate & address high severity production issues
 * advise & mentor teammates and other engineers across the company, including helping them break work into incremental deliverables, prioritizing early risk-discovery & risk-reduction
 * tech used: JavaScript, TypeScript, NodeJS, React, Emotion, Webpack, Cypress, Java, Spark (Scala)
