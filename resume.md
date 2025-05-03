@@ -2,7 +2,7 @@
 
 > github-resume@evandower.com  
 > (717) 673-8268  
-> Remote/Seattle, seeking visa sponsorship and relocation to New Zealand
+> Remote/Seattle, seeking visa sponsorship and relocation to Australia or New Zealand
 
 * rapidly delivers results even in new domains due to quickly gaining in-depth knowledge
 * delivers incrementally, with a focus on using data to determine whether further investment makes business sense
