@@ -17,6 +17,7 @@ At Indeed, I grew my leadership, mentorship, architecture, and frontend skills. 
 #### Staff Software Engineer (Frontend Platforms) - April 2019 to present
 
 **Platform Development & Architecture:**
+
 * build & productionize micro-frontend framework, decoupling hundreds of content provider teams & dozens of consuming webapp teams to allow both to iterate quickly & independently
 * own global header used across almost all Indeed pages & webapps while expanding coverage, iterating on content, and rewriting to take advantage of Indeed's new design system
 * designed & implemented JavaScript dependency sharing solution using webpack module federation, reducing page weight by avoiding duplicate downloads across decoupled components
@@ -25,6 +26,7 @@ At Indeed, I grew my leadership, mentorship, architecture, and frontend skills. 
 * provide a platform for delivering non-UI capabilities (e.g. observability, cookie compliance, etc.) across all Indeed products
 
 **Performance & Optimization:**
+
 * improved performance impact & safety of global navigation header, including reducing initial bundle size by 48%, improving isolation, and using module federation to enable dependency sharing
 * delivered shared-deps event loop turning improvement achieving 0.68% overall worldwide sitespeed improvement, leading to 0.34% increase in Homepage Job Clicks and 0.31% increase in Total Indeed Applies
 * reduced GNAV payload size by 84% to improve Indeed Mobile performance
@@ -33,6 +35,7 @@ At Indeed, I grew my leadership, mentorship, architecture, and frontend skills. 
 * improved performance of data analysis pipeline by >10x while also improving correctness
 
 **Technical Leadership & Problem Solving:**
+
 * facilitate smooth adoption of module federation across Indeed by building libraries that act as guard-rails around the core features of module federation, which have lots of sharp edges, including [fixing bugs in webpack itself](https://github.com/webpack/webpack/pull/16031)
 * investigated and solved Dradis plugin race condition issue by upgrading render service from Preact to React 16, simplifying development experience
 * prevented production incidents by catching nuanced dependency issues between core systems
@@ -42,6 +45,7 @@ At Indeed, I grew my leadership, mentorship, architecture, and frontend skills. 
 * primary owner of critical index builders supporting JobSearch SLOs, resolving 2 major incidents with Data Platform coordination
 
 **Cross-Organizational Impact:**
+
 * served as UI Platform Web US representative in Journey tech leads sync, expanding influence beyond immediate team
 * main point-of-contact for VM2 security vulnerability, coordinating resolution across teams  
 * provided architectural guidance to multiple teams including JSMA on native navigation and Viewjob team on re-use initiatives
@@ -49,6 +53,7 @@ At Indeed, I grew my leadership, mentorship, architecture, and frontend skills. 
 * designed & planned initiative to add page weight observability to all Indeed products
 
 **Mentorship & Recruiting:**
+
 * advise & mentor teammates and other engineers across the company, including helping them break work into incremental deliverables, prioritizing early risk-discovery & risk-reduction
 * mentored Sr. Cloud Solutions Engineer via Mentor Connect on Terraform best practices and influencing others
 * conducted 23+ interviews per cycle, graduating to calibrated interviewer for FE Whiteboard, Code Review, and Architecture interviews
