@@ -38,11 +38,12 @@
    - Add leadership/mentorship examples
 
 6. **Expand Staff SE Frontend section significantly**
-   - ~5 years of new content (50% expansion guideline)
+   - ~3 years of new content (2022-2025), potentially doubling section size
    - Major projects and platform work
    - Performance improvements with metrics
    - Cross-team impact and collaboration
    - Technical innovation and problem-solving
+   - Emphasize ability to unstick projects when other engineers get blocked
 
 ### Phase 4: Refinement
 7. **Review for consistency and flow**
@@ -59,8 +60,9 @@
 ## Expected Outcome
 - Enhanced Indeed section showing clear progression over 10 years
 - Maintained consistency with existing resume style and themes
-- Increased content by ~50% focusing on recent Staff SE role
+- Staff SE Frontend role approximately doubled in size with 2022-2025 content
 - Quantified achievements and business impact where possible
+- Highlighted ability to unstick complex technical problems
 - Professional presentation suitable for external audiences
 
 ## Questions for Feedback
