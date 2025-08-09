@@ -25,20 +25,20 @@ At Indeed, I grew my leadership, mentorship, architecture, and frontend skills. 
 * provide a platform for delivering non-UI capabilities (e.g. observability, cookie compliance, etc.) across all Indeed products
 
 **Performance & Optimization:**
-* improve performance impact & safety of global navigation header, including reducing initial bundle size by 48%, improving isolation, and using module federation to enable dependency sharing
+* improved performance impact & safety of global navigation header, including reducing initial bundle size by 48%, improving isolation, and using module federation to enable dependency sharing
 * delivered shared-deps event loop turning improvement achieving 0.68% overall worldwide sitespeed improvement, leading to 0.34% increase in Homepage Job Clicks and 0.31% increase in Total Indeed Applies
 * reduced GNAV payload size by 84% to improve Indeed Mobile performance
 * worked with Marketing to remove Google DCM tag from mobile search, achieving 1-3% sitespeed improvements
 * created comprehensive 2024 SiteSpeed Opportunities analysis forming the sitespeed roadmap for Job Seeker products
-* improve performance of data analysis pipeline by >10x while also improving correctness
+* improved performance of data analysis pipeline by >10x while also improving correctness
 
 **Technical Leadership & Problem Solving:**
 * facilitate smooth adoption of module federation across Indeed by building libraries that act as guard-rails around the core features of module federation, which have lots of sharp edges, including [fixing bugs in webpack itself](https://github.com/webpack/webpack/pull/16031)
 * investigated and solved Dradis plugin race condition issue by upgrading render service from Preact to React 16, simplifying development experience
 * prevented production incidents by catching nuanced dependency issues between core systems
-* improved automated testing and streamline release processes in order to achieve full push-on-green CI/CD
+* improved automated testing and streamlined release processes in order to achieve full push-on-green CI/CD
 * organized failure modes brainstorming and improved deploy processes including multi-branch builds and auto-ticket management
-* quickly investigate & address high severity production issues
+* quickly investigated & addressed high severity production issues
 * primary owner of critical index builders supporting JobSearch SLOs, resolving 2 major incidents with Data Platform coordination
 
 **Cross-Organizational Impact:**
