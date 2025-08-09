@@ -8,6 +8,7 @@
 ## Clarifications:
 - **Scope**: Edit the Indeed section rather than rewriting it.
 - **Focus**: Emphasize the same themes as are found in the existing resume.md.
-- **Format**: Keep the style consistent with the existing content. Length can expand proportionally. Since we're adding about 3 years to the existing 7 years, we can expand the content by about 50%. Err on the side of including too much, since we can always edit it down later.
+- **Format**: Keep the style consistent with the existing content. The Indeed section currently covers 2015-2022, and we'll need to add content for 2022-2025. That's all in the Staff SE Frontend role, so we expect that role to approximately double in size. Maintain the existing order of role sections.
 - **Confidentiality**: There may be sensitive details in the reviews, and internal names for things that won't be understood by people outside Indeed, so we should explain things a little bit generically. Ask how to describe things when internal codenames are used.
 - **Timeline**: Balance recent accomplishments with showing progression over the full ten years.
+- **Key Skill to Highlight**: Emphasize ability to unstick projects when they get stuck - often able to figure out and resolve issues that have blocked 2-3 good engineers for weeks/months within a couple hours.
