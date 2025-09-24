@@ -128,6 +128,7 @@ During my decade at Amazon, I evolved into a full-stack developer with expertise
 #### Software Development Engineer (Developer Productivity Tools) - December 2006 to July 2015
 
 **Key Achievements:**
+
 * **Cost Optimization:** Improved deployment scheduling algorithm from O(n³) to O(n²), enabling Amazon to scale deployment capacity for Q4 loads and potentially saving millions of dollars
 * **Infrastructure Ownership:** Led implementation of highly available revision control supporting >300k Git repositories for >10k developers
 * **Process Automation:** Designed and delivered company-wide continuous deployment system, modelling and automating ~40k release processes
