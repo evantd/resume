@@ -46,6 +46,9 @@ At Indeed, I evolved from individual contributor to engineering manager and back
 
 **Technical Leadership & Problem Solving:**
 
+* led React 18 and design system v6 upgrade initiative across 6 critical Job Seeker Frontend surfaces, delivering green pipelines and enabling Phase 2 rollout
+* owned technical execution of pnpm migration for mobile platform to facilitate centralization within mono-repo after previous rollback
+* drove design system v7 compliance across all Job Seeker frontend platform surfaces, collaborating cross-functionally with Design System team to implement dark mode support through IndeedThemeProvider
 * facilitated smooth adoption of module federation across Indeed by building libraries that act as guard-rails around core features with sharp edges, including [fixing bugs in webpack itself](https://github.com/webpack/webpack/pull/16031)
 * diagnosed and resolved employer frontend platform race condition issue by upgrading render service from Preact to React 16, simplifying development experience
 * prevented production incidents by identifying nuanced dependency issues between core systems
@@ -56,14 +59,19 @@ At Indeed, I evolved from individual contributor to engineering manager and back
 
 **Cross-Organizational Impact:**
 
+* influenced team strategy through participation in 2025H1 planning, providing effort estimates and strategic direction for key initiatives
+* identified and scoped platform improvement opportunities including sitespeed observability and beachball migration consolidation
+* provided technical enablement for messaging team's "new message" feature implementation in global navigation
+* allocated 25% time to on-call duties and platform maintenance, responding to alerts and support requests as subject matter expert
 * represented UI Platform Web US in cross-team tech leads sync for Job-Seeker Journey organisation (6-12 teams), expanding influence beyond immediate team
-* served as main point-of-contact for VM2 security vulnerability, coordinating resolution across teams  
+* served as main point-of-contact for VM2 security vulnerability, coordinating resolution across teams and orchestrating deprecation
 * delivered architectural guidance to multiple teams including JSMA on native navigation and Viewjob team on re-use initiatives
 * championed React 18 and design system v6 rollouts across Indeed, advocating for upgrades and identifying implementation paths
 * designed & planned initiative to add page weight observability to all Indeed products
 
 **Mentorship & Community:**
 
+* provided technical mentorship and stakeholder management coaching to team members, including formal mentorship relationship with junior engineer transitioning to software engineering role
 * mentored teammates and engineers across the company, helping them break work into incremental deliverables while prioritising early risk-discovery & risk-reduction
 * coached Sr. Cloud Solutions Engineer via Mentor Connect on defining and spreading best practices across the company
 * guided 100+ external contributors to Global Nav platform through code reviews and technical direction
