@@ -46,8 +46,8 @@ At Indeed, I evolved from individual contributor to engineering manager and back
 
 **Technical Leadership & Problem Solving:**
 
-* architected and led IFL7 dual-building infrastructure enabling safe A/B testing across multiple product surfaces, coordinating cross-org sequencing and risk management that delivered seamless rollout of critical P1 CORGI upgrade
-* delivered 8% Homepage performance improvement through GraphQL bundle optimization and dependency upgrades, achieving VP-level recognition and enabling neutral A/B impact that "singlehandedly saved this P1 CORGI"
+* architected and led design system v7 dual-building infrastructure enabling safe A/B testing across multiple product surfaces, coordinating cross-org sequencing and risk management that delivered seamless rollout of critical priority-1 cross-organizational upgrade
+* delivered 8% Homepage performance improvement through GraphQL bundle optimization and dependency upgrades, achieving VP-level recognition and enabling neutral A/B impact that "singlehandedly saved this priority-1 cross-organizational initiative"
 * led React 18 and design system v6 upgrade initiative across 6 critical Job Seeker Frontend surfaces, delivering green pipelines and enabling Phase 2 rollout
 * collaborated with PMs and Design to set browser support policy for jobseeker product area, analyzing cost/benefit trade-offs and creating enforceable guidelines to reduce technical debt
 * owned technical execution of pnpm migration for mobile platform to facilitate centralization within mono-repo after previous rollback
