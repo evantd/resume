@@ -46,7 +46,10 @@ At Indeed, I evolved from individual contributor to engineering manager and back
 
 **Technical Leadership & Problem Solving:**
 
+* architected and led IFL7 dual-building infrastructure enabling safe A/B testing across multiple product surfaces, coordinating cross-org sequencing and risk management that delivered seamless rollout of critical P1 CORGI upgrade
+* delivered 8% Homepage performance improvement through GraphQL bundle optimization and dependency upgrades, achieving VP-level recognition and enabling neutral A/B impact that "singlehandedly saved this P1 CORGI"
 * led React 18 and design system v6 upgrade initiative across 6 critical Job Seeker Frontend surfaces, delivering green pipelines and enabling Phase 2 rollout
+* defined browser support policy for jobseeker product area, analyzing cost/benefit trade-offs and establishing enforceable guidelines to reduce technical debt
 * owned technical execution of pnpm migration for mobile platform to facilitate centralization within mono-repo after previous rollback
 * drove design system v7 compliance across all Job Seeker frontend platform surfaces, collaborating cross-functionally with Design System team to implement dark mode support through IndeedThemeProvider
 * facilitated smooth adoption of module federation across Indeed by building libraries that act as guard-rails around core features with sharp edges, including [fixing bugs in webpack itself](https://github.com/webpack/webpack/pull/16031)
@@ -59,6 +62,7 @@ At Indeed, I evolved from individual contributor to engineering manager and back
 
 **Cross-Organizational Impact:**
 
+* pioneered AI-driven developer productivity through TEA (Talent Enablement Automation) hackathon project, creating self-evaluation system using daily summaries and peer feedback, establishing community adoption and inspiring company-wide AI experimentation
 * influenced team strategy through participation in 2025H1 planning, providing effort estimates and strategic direction for key initiatives
 * identified and scoped platform improvement opportunities including sitespeed observability and beachball migration consolidation
 * provided technical enablement for messaging team's "new message" feature implementation in global navigation
@@ -71,6 +75,7 @@ At Indeed, I evolved from individual contributor to engineering manager and back
 
 **Mentorship & Community:**
 
+* mentored engineers across teams on flame-graph analysis, performance triage, and debugging techniques, teaching investigative skills that accelerated problem-solving and upskilled data-driven investigative abilities organization-wide
 * provided technical mentorship and stakeholder management coaching to team members, including formal mentorship relationship with junior engineer transitioning to software engineering role
 * mentored teammates and engineers across the company, helping them break work into incremental deliverables while prioritising early risk-discovery & risk-reduction
 * coached Sr. Cloud Solutions Engineer via Mentor Connect on defining and spreading best practices across the company
