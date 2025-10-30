@@ -49,7 +49,7 @@ At Indeed, I evolved from individual contributor to engineering manager and back
 * architected and led IFL7 dual-building infrastructure enabling safe A/B testing across multiple product surfaces, coordinating cross-org sequencing and risk management that delivered seamless rollout of critical P1 CORGI upgrade
 * delivered 8% Homepage performance improvement through GraphQL bundle optimization and dependency upgrades, achieving VP-level recognition and enabling neutral A/B impact that "singlehandedly saved this P1 CORGI"
 * led React 18 and design system v6 upgrade initiative across 6 critical Job Seeker Frontend surfaces, delivering green pipelines and enabling Phase 2 rollout
-* defined browser support policy for jobseeker product area, analyzing cost/benefit trade-offs and establishing enforceable guidelines to reduce technical debt
+* collaborated with PMs and Design to set browser support policy for jobseeker product area, analyzing cost/benefit trade-offs and creating enforceable guidelines to reduce technical debt
 * owned technical execution of pnpm migration for mobile platform to facilitate centralization within mono-repo after previous rollback
 * drove design system v7 compliance across all Job Seeker frontend platform surfaces, collaborating cross-functionally with Design System team to implement dark mode support through IndeedThemeProvider
 * facilitated smooth adoption of module federation across Indeed by building libraries that act as guard-rails around core features with sharp edges, including [fixing bugs in webpack itself](https://github.com/webpack/webpack/pull/16031)
