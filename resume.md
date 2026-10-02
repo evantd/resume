@@ -13,7 +13,8 @@
 
 ## Core Competencies
 
-**Frontend & Platform Engineering:** JavaScript, TypeScript, React, Module Federation, Webpack, Micro-frontends, Performance Optimization  
+**Frontend & Platform Engineering:** JavaScript, TypeScript, React, React Native, React Strict DOM, Module Federation, Webpack, Micro-frontends, Performance Optimization  
+**AI-Assisted Engineering:** LLM Agent Harnesses, AI-Authored Codemods (AST), Large-Scale Automated Migrations  
 **Backend & Infrastructure:** Java, Node.js, Spring, Distributed Systems, API Design, CI/CD  
 **Data & Analytics:** Spark (Scala), Data Pipeline Optimization, A/B Testing, Performance Metrics  
 **Leadership & Collaboration:** Technical Mentorship, Cross-functional Coordination, Architecture Design, Code Review
@@ -28,6 +29,9 @@ At Indeed, I evolved from individual contributor to engineering manager and back
 
 **Platform Development & Architecture:**
 
+* led cross-platform validation of React Strict DOM, a top strategic priority for the mobile app platform organization, across four web and mobile teams: decomposed the experiment, built cross-platform bundle routing and an AST codemod, and validated the job-details page on web, Android, and iOS
+* pioneered an AI-driven migration method: built an iterative LLM agent harness that took the codemod from 515 errors to 0 and cut its runtime from 420 to 60 seconds, so the entire React Native codebase could be transformed on every build and A/B tested without halting product development; the method is planned for reuse in a design-system styling migration
+* validated React Strict DOM through a 50/50 A/B test that confirmed web site-speed improvements with neutral business metrics on web and mobile apps; the organization then deliberately paused adoption over upstream maintainer maturity, while the codemod preserved a ready migration path without asking product teams to migrate prematurely
 * modernized the global navigation service toolchain (Cypress 9 to 15, Node 22/24, ESLint 9, TypeScript 5.9, and a full migration of smoke tests to Playwright), clearing years of accumulated infrastructure debt
 * built & productionized micro-frontend framework, decoupling hundreds of content provider teams & dozens of consuming webapp teams to enable rapid, independent iteration
 * owned global header deployed across all Indeed pages & webapps while expanding coverage, iterating on content, and migrating to Indeed's new design system
@@ -38,6 +42,10 @@ At Indeed, I evolved from individual contributor to engineering manager and back
 
 **Performance & Optimization:**
 
+* unblocked a major web app's React 19 release by tracing regressions to the React streaming server renderer's chunk-size setting, fixing shared renderer configuration, and removing hydration and re-render costs
+* cut desktop search-results page latency by 13-21%
+* eliminated recurring latency alerts for the global navigation service (32 alert triggers to zero across equal ~7-week windows): traced slow requests to bad hosts rather than fleet load, then right-sized workers (16 to 4) and CPU requests (halved), bounded queue admission, moved retries to the Envoy service mesh, and enabled request hedging, cutting p95 latency in one data center from 30 ms to 12.5 ms
+* parallelized global navigation fallback generation across locales and variants, cutting generation time from ~60 seconds to 5 and eliminating a timeout
 * designed and shipped a server-side rendering worker pool for the global navigation and job seeker web services, increasing the share of search-results page users experiencing good site speed by 18%, contributing a 4% improvement to the organization's site-speed objective, and cutting the job seeker web service's running instances by 35% (~$115K projected annual savings); senior leadership called it a "RIDICULOUS improvement" and a peer called it "one of the biggest single improvements to sitespeed we've had to date"
 * root-caused head-of-line blocking to main-thread JSON parsing and replaced it with buffer-based stream parsing that eliminated quadratic string concatenation; added trace propagation and per-variant observability, and resolved production connection-reset errors
 * contributed parallel S3 uploads to the company-wide shared CI templates, cutting merge-request pipeline time from ~11.5 to ~1.5 minutes and making the speedup available to every engineering team, and published an engineering blog post on the change
@@ -50,10 +58,13 @@ At Indeed, I evolved from individual contributor to engineering manager and back
 
 **Technical Leadership & Problem Solving:**
 
+* named site speed technical lead for the job seeker product organization, recognized for establishing the original performance metrics and improvements that enabled goal attainment
+* aligned contributors from multiple mobile platform teams on the React Strict DOM migration through migration-pattern guidance and daily burndown updates, letting engineers outside the team pick up migration work
+* hardened release safety for the shared JavaScript dependency platform after an upgrade caused a site-wide navigation footer outage, adding A/B release slots, release-candidate CI, cross-version smoke tests, and feature-flag rollback
 * architected and led design system v7 dual-building infrastructure enabling safe A/B testing across multiple product surfaces, coordinating cross-org sequencing and risk management that delivered seamless rollout of critical priority-1 cross-organizational upgrade; root-caused conflicting micro-frontend providers overriding design tokens, built automated style resolution, and limited the measured site-speed impact to ~2% versus a projected 30% risk
 * delivered 8% Homepage performance improvement through GraphQL bundle optimization and dependency upgrades, achieving VP-level recognition and enabling neutral A/B impact that "singlehandedly saved this priority-1 cross-organizational initiative"
 * led React 18 and design system v6 upgrade initiative across 6 critical Job Seeker Frontend surfaces, delivering green pipelines and enabling Phase 2 rollout
-* collaborated with PMs and Design to set browser support policy for jobseeker product area, analyzing cost/benefit trade-offs and creating enforceable guidelines to reduce technical debt
+* collaborated with PMs and Design to set browser support policy for jobseeker product area, analyzing cost/benefit trade-offs and creating enforceable guidelines to reduce technical debt; guided the next policy update to production (raising minimums to Chrome 110, Firefox 121, and Safari 16 to retire fragile polyfills) and transferred ongoing ownership to the design system team
 * owned technical execution of pnpm migration for mobile platform to facilitate centralization within mono-repo after previous rollback
 * drove design system v7 compliance across all Job Seeker frontend platform surfaces, collaborating cross-functionally with Design System team to implement dark mode support through IndeedThemeProvider
 * facilitated smooth adoption of module federation across Indeed by building libraries that act as guard-rails around core features with sharp edges, including [fixing bugs in webpack itself](https://github.com/webpack/webpack/pull/16031)
@@ -66,7 +77,7 @@ At Indeed, I evolved from individual contributor to engineering manager and back
 
 **Cross-Organizational Impact:**
 
-* pioneered AI-driven developer productivity through TEA (Talent Enablement Automation), evolving a hackathon project into a production CLI for AI-assisted performance evaluations, built on daily work summaries and peer feedback, and adopted across software engineering, technical delivery, data science, and product science roles
+* pioneered AI-driven developer productivity through TEA (Talent Enablement Automation), growing a self-initiated hackathon project into an evidence-grounded performance-review tool used by 390+ employees across engineering, technical delivery, and science roles, including 40+ people managers, with 210+ returning users and extensions merged by six other engineers; built self-evaluations from daily work summaries, guided peer feedback, and resumable runs, and users credited it with saving significant time and supporting successful promotion cases
 * served as primary technical lead for global navigation and micro-frontend integration questions from identity, authentication, employer, international, and mobile teams, including architectural guidance on server-side rendering for LLM crawlers
 * influenced team strategy through participation in 2025H1 planning, providing effort estimates and strategic direction for key initiatives
 * identified and scoped platform improvement opportunities including sitespeed observability and beachball migration consolidation
@@ -89,7 +100,7 @@ At Indeed, I evolved from individual contributor to engineering manager and back
 * coached Sr. Cloud Solutions Engineer via Mentor Connect on defining and spreading best practices across the company
 * guided 100+ external contributors to Global Nav platform through code reviews and technical direction
 
-**Tech Stack:** JavaScript, TypeScript, NodeJS, React, Emotion, Webpack, Module Federation, Cypress, Playwright, Java, Spark (Scala), DataDog, Terraform
+**Tech Stack:** JavaScript, TypeScript, NodeJS, React, React Native, React Strict DOM, Emotion, Webpack, Module Federation, Cypress, Playwright, Envoy, Java, Spark (Scala), DataDog, Terraform, LLM coding agents
 
 #### Software Engineer / Technical Delivery Manager (SMB Hiring) - July 2017 to March 2019
 
