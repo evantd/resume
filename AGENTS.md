@@ -112,6 +112,8 @@ git branch -d update-resume-YYYY-QX
 - Values quantifiable impact and incremental delivery
 - Strong focus on mentorship and cross-functional collaboration
 
+**Title history (decided, don't "fix"):** Workday (`indeedemployeesnapshot` IQL index) shows Evan at the Staff-equivalent level since Jan 2018. His title read "Senior Software Engineer" until a company-wide retitle on 2020-02-11, when the title changed but the level and role didn't. The CV intentionally says "Staff Software Engineer - April 2019 to present".
+
 **Resume philosophy:**
 - Data-driven (include metrics and business outcomes)
 - Externally comprehensible (no company jargon)
