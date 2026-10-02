@@ -30,7 +30,7 @@ At Indeed, I moved from individual contributor to engineering manager of a 6-per
 **Platform Development & Architecture:**
 
 * built & productionized micro-frontend framework, decoupling hundreds of content provider teams & dozens of consuming webapp teams to enable rapid, independent iteration
-* owned the global navigation header and footer served on every Indeed page, and designed JavaScript dependency sharing across decoupled components with webpack module federation, becoming one of Indeed's few subject matter experts in the technology (including [fixing bugs in webpack itself](https://github.com/webpack/webpack/pull/16031))
+* owned the global navigation header and footer served across nearly all Indeed pages, and designed JavaScript dependency sharing across decoupled components with webpack module federation, becoming one of Indeed's few subject matter experts in the technology (including [fixing bugs in webpack itself](https://github.com/webpack/webpack/pull/16031))
 * led cross-platform validation of React Strict DOM, a top strategic priority for the mobile app platform organization, across four web and mobile teams; a 50/50 A/B test on web, Android, and iOS confirmed web site-speed improvements with neutral business metrics, and the organization then deliberately paused adoption over upstream maintainer maturity with a ready migration path preserved
 * pioneered an AI-driven migration method: built an iterative LLM agent harness that took the migration codemod from 515 errors to 0 and cut its runtime from 420 to 60 seconds, so the entire React Native codebase could be transformed on every build and A/B tested without halting product development
 
@@ -48,17 +48,17 @@ At Indeed, I moved from individual contributor to engineering manager of a 6-per
 
 * named site speed technical lead for the job seeker product organization, recognized for establishing the metrics and improvements that enabled goal attainment; earlier authored the site speed opportunities analysis that formed its roadmap
 * architected design system upgrade infrastructure (dual-building and A/B testing across product surfaces) and led the React 18, design system v6, and design system v7 upgrades for job seeker surfaces; for the priority-1 v7 upgrade, root-caused conflicting micro-frontend providers overriding design tokens and limited the measured site-speed impact to ~2% versus a projected 30% risk
-* hardened release safety for the shared JavaScript dependency platform after an upgrade caused a site-wide footer outage, adding A/B release slots, release-candidate CI, cross-version smoke tests, and feature-flag rollback; rapidly investigates and resolves high-severity production incidents
+* hardened release safety for the shared JavaScript dependency platform after an upgrade caused a global navigation footer outage, adding A/B release slots, release-candidate CI, cross-version smoke tests, and feature-flag rollback; rapidly investigates and resolves high-severity production incidents
 * set the job seeker browser support policy with product and design, then guided its update to production (raising minimums to Chrome 110, Firefox 121, and Safari 16 to retire fragile polyfills) and transferred ongoing ownership to the design system team
 
 **Cross-Organizational Impact:**
 
 * pioneered AI-driven developer productivity through TEA (Talent Enablement Automation), growing a self-initiated hackathon project into an evidence-grounded performance-review tool used by 390+ employees across engineering, technical delivery, and science roles, including 40+ people managers, with 210+ returning users and extensions merged by six other engineers
-* served as go-to technical lead for global navigation and micro-frontend integration across identity, authentication, employer, international, and mobile teams, and represented the team in a cross-team tech leads forum spanning 6-12 teams
+* served as go-to technical lead for global navigation and micro-frontend integration across identity, authentication, employer, international, and mobile teams, and represented the team in a cross-team tech leads forum
 
 **Mentorship & Community:**
 
-* mentored engineers across teams on flame-graph analysis, performance triage, debugging, and breaking work into incremental, risk-reducing deliverables, including a formal mentorship of an engineer transitioning into software engineering
+* mentored engineers across teams on flame-graph analysis, performance triage, debugging, and breaking work into incremental, risk-reducing deliverables, including mentoring an engineer through a transition into software engineering
 * recognized as "at the forefront of AI adoption among Indeed engineers": mentored engineers as an AI Champion on AI tooling workflows, MCP server configuration, and prompt engineering, and published engineering blog posts on AI-assisted writing and faster CI pipelines
 * guided 100+ external contributors to the global navigation platform through code reviews and technical direction
 
@@ -88,15 +88,15 @@ At Indeed, I moved from individual contributor to engineering manager of a 6-per
 
 ### Amazon, Seattle, WA
 
-During my decade at Amazon, I became a full-stack developer with expertise in distributed systems, developer productivity tools, and large-scale infrastructure, delivering systems that served thousands of developers and saved millions in operational costs.
+During my decade at Amazon, I became a full-stack developer with expertise in distributed systems, developer productivity tools, and large-scale infrastructure, delivering systems that served >10k developers, saved ~$1M annually, and potentially saved millions more.
 
 #### Software Development Engineer (Developer Productivity Tools) - December 2006 to July 2015
 
 * **Cost Optimization:** Improved deployment scheduling algorithm from O(n³) to O(n²), enabling Amazon to scale deployment capacity for Q4 loads and potentially saving millions of dollars
-* **Infrastructure Ownership:** Led implementation of highly available revision control supporting >300k Git repositories for >10k developers
-* **Process Automation:** Designed and delivered company-wide continuous deployment system, modelling and automating ~40k release processes
+* **Distributed Systems:** Helped implement highly available, horizontally scalable revision control supporting >300k Git repositories for >10k developers
+* **Process Automation:** Led a team to implement a company-wide continuous deployment system, modelling and automating ~40k release processes
 * **Vendor Cost Reduction:** Owned internal revision control systems with monitoring, throttling, and hot standby capabilities, enabling Amazon to terminate Perforce support contract and save ~$1M annually
-* **Developer Tools:** Built internal code browser with always-on blame, visual DAGs, and pull requests, serving >10k users company-wide
+* **Developer Tools:** Owned multiple generations of internal code review systems (~6k reviews per day, >10k users), and helped build an internal code browser ("GitHub for Amazon") with always-on blame, visual DAGs, and pull requests
 
 **Tech Stack:** Java, Ruby on Rails, Python, Git, Oracle, DynamoDB, AngularJS, Perl
 
