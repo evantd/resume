@@ -3,7 +3,7 @@
 **Email:** github-resume@evandower.com  
 **Phone:** +1 (717) 673-8268  
 **Location:** Remote/Seattle, WA, USA  
-**Visa Status:** Seeking sponsorship for relocation to Australia or New Zealand  
+**Relocation:** Moving to Australia or New Zealand (open to any city); requires visa sponsorship; Australian skills assessment, EOI, and English test complete  
 **Links:** [linkedin.com/in/evan-dower-589a592](https://www.linkedin.com/in/evan-dower-589a592/) · [github.com/evantd](https://github.com/evantd) · [evandower.com/blog](https://www.evandower.com/blog/)
 
 ## Professional Summary
@@ -29,7 +29,7 @@ Moved from individual contributor to engineering manager (6 engineers) and back 
 
 * built & productionized micro-frontend framework, decoupling hundreds of content provider teams & dozens of consuming webapp teams to enable rapid, independent iteration
 * owned the global navigation header and footer served across nearly all Indeed pages (2.2B+ requests per week), and designed JavaScript dependency sharing across decoupled components with webpack module federation, becoming one of Indeed's few subject matter experts in the technology (including [fixing bugs in webpack itself](https://github.com/webpack/webpack/pull/16031))
-* led cross-platform validation of React Strict DOM, a top strategic priority for the mobile app platform organization, across four web and mobile teams; a 50/50 A/B test on web, Android, and iOS showed ~20% better web performance with neutral business metrics, and the codemod keeps migration ready while adoption is paused for upstream maturity
+* authored the validation strategy for React Strict DOM, a top strategic priority for the mobile app platform organization, and led it across four web and mobile teams; a 50/50 A/B test on web, Android, and iOS showed ~20% better web performance with neutral business metrics, and the codemod keeps migration ready while adoption is paused for upstream maturity
 * pioneered an AI-driven migration method: built an iterative LLM agent harness that took the migration codemod from 515 errors to 0 and cut its runtime from 420 to 60 seconds, so the entire React Native codebase could be transformed on every build and A/B tested without halting product development
 
 **Performance & Optimization:**
