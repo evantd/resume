@@ -25,17 +25,19 @@ Moved from individual contributor to engineering manager (6 engineers) and back 
 
 #### Staff Software Engineer (Frontend Platforms) - April 2019 to present
 
+*Tech lead: global navigation (2019) → micro-frontend & navigation platforms (2021) → cross-org shared dependencies & site speed (2022-24) → mobile app platform web team (2025) → job seeker site speed (2026)*
+
 **Platform Development & Architecture:**
 
-* built & productionized the micro-frontend framework behind Indeed's job seeker UI for ~6 years (87 features from 35 independently deployed services, composed into 19 pages across 10 host apps), enabling incremental migration of legacy web apps to server-rendered React
+* built & productionized the micro-frontend framework behind Indeed's job seeker UI for ~6 years (87 features from 35 independently deployed services across 19 pages in 10 apps), enabling incremental migration to server-rendered React
 * owned the global navigation header and footer served across nearly all Indeed pages (2.2B+ requests per week), and designed JavaScript dependency sharing across decoupled components with webpack module federation, becoming one of Indeed's few subject matter experts in the technology (including [fixing bugs in webpack itself](https://github.com/webpack/webpack/pull/16031))
-* authored and led the validation strategy for React Strict DOM, the mobile app platform organization's top strategic priority, across four web and mobile teams; a 50/50 A/B test on web, Android, and iOS showed ~20% better web performance, neutral business metrics
+* authored and led the validation strategy for React Strict DOM, the mobile platform org's top strategic priority, across four web and mobile teams; a 50/50 web/Android/iOS A/B test showed ~20% better web performance and neutral business metrics
 * pioneered an AI-driven migration method: built an iterative LLM agent harness that took the migration codemod from 515 errors to 0 and cut its runtime from 420 to 60 seconds, so the entire React Native codebase could be transformed on every build, A/B tested without halting product development, and kept migration-ready while adoption awaits upstream maturity
 
 **Performance & Optimization:**
 
-* designed and shipped a server-side rendering worker pool for the global navigation and job seeker web services, increasing the share of search-results page users with a good (90+) Lighthouse-equivalent score from real-user data by 18%, contributing a 4% improvement to the organization's site-speed objective, and cutting running instances by 35% (~$115K/year projected savings)
-* delivered an 8% Homepage performance improvement through GraphQL bundle optimization and dependency upgrades, offsetting a priority-1 design system upgrade's performance cost so its A/B test came out neutral and it shipped; recognized at VP level
+* designed and shipped a server-side rendering worker pool for the global navigation and job seeker web services, increasing the share of search-results page users with a good (90+) Lighthouse-equivalent score from real-user data by 18%, advancing the org's site-speed objective 4%, and cutting running instances by 35% (~$115K/year projected savings)
+* delivered an 8% Homepage speed-up via GraphQL bundle optimization and dependency upgrades, offsetting a priority-1 design system upgrade's performance cost so its A/B test came out neutral and it shipped; recognized at VP level
 * delivered shared-dependency event loop optimizations, including patching webpack to initialize each shared dependency in its own main-thread task (~50ms less Total Blocking Time), achieving 0.68% worldwide site speed improvement, resulting in 0.34% more Homepage job clicks and 0.31% more total job applications
 * unblocked a major web app's React 19 release by comparing long tasks across builds: traced an LCP and layout-shift regression to React's streaming server renderer, and removed forced reflows and a whole-page post-hydration re-render; separately cut desktop search-results page latency by 13-21%
 * eliminated recurring latency alerts for the global navigation service (32 triggers to zero) by tracing slow requests to bad hosts, right-sizing workers and CPU, bounding queue admission, moving retries to the Envoy service mesh, and enabling request hedging, cutting p95 latency in one data center from 30 ms to 12.5 ms
@@ -45,13 +47,13 @@ Moved from individual contributor to engineering manager (6 engineers) and back 
 **Technical Leadership & Problem Solving:**
 
 * named site speed technical lead for the job seeker product organization, recognized for establishing the metrics and improvements that enabled goal attainment; earlier authored the site speed opportunities analysis that formed its roadmap
-* architected design system upgrade infrastructure (dual-building and A/B testing across product surfaces) and led the React 18, design system v6, and design system v7 upgrades for job seeker surfaces; for the priority-1 v7 upgrade, root-caused conflicting micro-frontend providers overriding design tokens and held measured site-speed impact to ~2% vs. a projected 30%
+* architected design system upgrade infrastructure (dual builds and A/B tests across product surfaces) and led the React 18, design system v6, and design system v7 upgrades for job seeker surfaces; for the priority-1 v7 upgrade, root-caused conflicting micro-frontend providers overriding design tokens and held measured site-speed impact to ~2% vs. a projected 30%
 * hardened release safety for the shared JavaScript dependency platform after an upgrade caused a global navigation footer outage, adding A/B release slots, release-candidate CI, cross-version smoke tests, and feature-flag rollback
-* set and later updated the job seeker browser support policy with product and design, retiring fragile polyfills, then handed it to design systems
+* set and later updated the job seeker browser support policy with product and design, retiring fragile polyfills
 
 **Cross-Organizational Impact:**
 
-* pioneered AI-driven developer productivity through TEA (Talent Enablement Automation), growing a self-initiated hackathon project into an evidence-grounded performance-review tool used by 390+ employees across engineering, technical delivery, and science roles, including 40+ people managers, with 210+ returning users and extensions merged by six other engineers
+* pioneered AI-driven developer productivity through TEA (Talent Enablement Automation), growing a self-initiated hackathon project into an evidence-grounded performance-review tool used by 390+ employees across engineering, delivery, and science roles, including 40+ people managers, with 210+ returning users and extensions merged by six other engineers
 * served as primary technical lead for global navigation and micro-frontend integrations with identity, authentication, employer, international, and mobile teams, and represented the team in a cross-team tech leads forum
 
 **Mentorship & Community:**
@@ -80,7 +82,7 @@ A decade building full-stack developer infrastructure used by >10k Amazon engine
 * **Distributed Systems:** Helped build highly available, horizontally scalable revision control for >300k Git repositories
 * **Process Automation:** Led a team building company-wide continuous deployment, automating ~40k release processes
 * **Vendor Cost Reduction:** Owned internal revision control systems with monitoring, throttling, and hot standby capabilities, enabling Amazon to terminate Perforce support contract and save ~$1M annually
-* **Developer Tools:** Owned multiple generations of internal code review systems (~6k reviews per day, >10k users) and helped build Amazon's internal code browser
+* **Developer Tools:** Owned internal code review systems (~6k reviews/day, >10k users); helped build the code browser
 * **Ordering:** Owned the marketplace seller order management system used by all Amazon sellers (2005-2006)
 
 ## Education
