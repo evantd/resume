@@ -22,6 +22,13 @@ After any changes to resume.md:
 ./update-pdf.sh
 ```
 
+### Syncing the Website
+
+The resume also appears on evandower.com (`~/evandower-dot-com`, deployed by Vercel on push to `main`). After updating resume.md:
+1. Copy `Evan-Dower-resume.pdf` to `~/evandower-dot-com/public/`.
+2. Regenerate the body of `src/pages/resume.astro` with `pandoc -t html5 --wrap=none resume.md`. Drop the `<h1>` (the layout renders it) and keep the "Download as PDF" link.
+3. Run `pnpm build`, then commit and push.
+
 ### Removing Indeed-Specific Jargon
 
 **Critical**: This resume must be readable outside Indeed. Replace jargon with clear descriptions:
