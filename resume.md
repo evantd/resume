@@ -51,7 +51,7 @@ At Indeed, I evolved from individual contributor to engineering manager and back
 * contributed parallel S3 uploads to the company-wide shared CI templates, cutting merge-request pipeline time from ~11.5 to ~1.5 minutes and making the speedup available to every engineering team, and published an engineering blog post on the change
 * optimized performance impact & safety of global navigation header, reducing initial bundle size by 48%, improving isolation, and enabling dependency sharing via module federation
 * delivered shared-deps event loop optimization achieving 0.68% overall worldwide site speed improvement, resulting in 0.34% increase in Homepage Job Clicks and 0.31% increase in Total Job Applications
-* reduced GNAV payload size by 84% to enhance Indeed Mobile performance
+* reduced global navigation header payload size by 84% to enhance Indeed Mobile performance
 * collaborated with Marketing to remove Google DCM tag from mobile search, achieving 1-3% site speed improvements
 * authored comprehensive 2024 Site Speed Opportunities analysis that formed the site speed roadmap for Job Seeker products
 * enhanced performance of data analysis pipeline by >10x while simultaneously improving correctness
@@ -85,7 +85,7 @@ At Indeed, I evolved from individual contributor to engineering manager and back
 * allocated 25% time to on-call duties and platform maintenance, responding to alerts and support requests as subject matter expert
 * represented UI Platform Web US in cross-team tech leads sync for Job-Seeker Journey organisation (6-12 teams), expanding influence beyond immediate team
 * served as main point-of-contact for VM2 security vulnerability, coordinating resolution across teams and orchestrating deprecation
-* delivered architectural guidance to multiple teams including JSMA on native navigation and Viewjob team on re-use initiatives
+* delivered architectural guidance to multiple teams including the job seeker mobile app team on native navigation and the job-details page team on re-use initiatives
 * championed React 18 and design system v6 rollouts across Indeed, advocating for upgrades and identifying implementation paths
 * designed & planned initiative to add page weight observability to all Indeed products
 
