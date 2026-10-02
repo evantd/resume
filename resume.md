@@ -3,7 +3,7 @@
 **Email:** github-resume@evandower.com  
 **Phone:** +1 (717) 673-8268  
 **Location:** Remote/Seattle, WA, USA  
-**Relocation:** Moving to Australia or New Zealand (open to any city); requires visa sponsorship; Australian skills assessment, EOI, and English test complete  
+**Relocation:** US citizen moving to Australia or New Zealand (open to any city); requires AU/NZ visa sponsorship; Australian skills assessment, EOI, and English test complete  
 **Links:** [linkedin.com/in/evan-dower-589a592](https://www.linkedin.com/in/evan-dower-589a592/) · [github.com/evantd](https://github.com/evantd) · [evandower.com/blog](https://www.evandower.com/blog/)
 
 ## Professional Summary
@@ -15,7 +15,7 @@
 ## Skills
 
 **Languages & Frameworks:** TypeScript, JavaScript, React, React Native, React Strict DOM, Node.js, Java, Spring, Spark (Scala)  
-**Platform & Practices:** Micro-frontends, Webpack Module Federation, pnpm Monorepos, Web Performance (Lighthouse, LCP, TBT, CLS, long-task profiling), Accessibility Testing, A/B Testing, CI/CD, Envoy, Terraform, Datadog, Playwright, Cypress, LLM Agent Harnesses, AI-Authored Codemods
+**Platform & Practices:** Micro-frontends, Webpack Module Federation, pnpm Monorepos, Web Performance (Lighthouse, LCP, TBT, CLS, long-task profiling), Accessibility Testing, A/B Testing, CI/CD, Datadog, Cypress, LLM Agent Harnesses, AI-Authored Codemods
 
 ## Experience
 
@@ -40,7 +40,7 @@ Moved from individual contributor to engineering manager (6 engineers) and back 
 * delivered an 8% Homepage speed-up via GraphQL bundle optimization and dependency upgrades, offsetting a priority-1 design system upgrade's performance cost so its A/B test came out neutral and it shipped; recognized at VP level
 * delivered shared-dependency event loop optimizations, including patching webpack to initialize each shared dependency in its own main-thread task (~50ms less Total Blocking Time), achieving 0.68% worldwide site speed improvement, resulting in 0.34% more Homepage job clicks and 0.31% more total job applications
 * unblocked a major web app's React 19 release by comparing long tasks across builds: traced an LCP and layout-shift regression to React's streaming server renderer, and removed forced reflows and a whole-page post-hydration re-render; separately cut desktop search-results page latency by 13-21%
-* eliminated recurring latency alerts for the global navigation service (32 triggers to zero) by tracing slow requests to bad hosts, right-sizing workers and CPU, bounding queue admission, moving retries to the Envoy service mesh, and enabling request hedging, cutting p95 latency in one data center from 30 ms to 12.5 ms
+* eliminated recurring latency alerts for the global navigation service (32 triggers to zero) by tracing slow requests to bad hosts, right-sizing workers and CPU, bounding queue admission, moving retries to the service mesh, and enabling request hedging, cutting p95 latency in one data center from 30 ms to 12.5 ms
 * reduced the global navigation header's initial bundle size by 48% and its mobile payload by 84%
 * added parallel S3 uploads to company-wide shared CI templates, cutting merge-request pipelines from ~11.5 to ~1.5 minutes
 
