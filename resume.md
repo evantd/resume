@@ -25,19 +25,19 @@ Moved from individual contributor to engineering manager (6 engineers) and back 
 
 #### Staff Software Engineer (Frontend Platforms) - April 2019 to present
 
-*Tech lead: global navigation (2019) → micro-frontend & navigation platforms (2021) → cross-org shared dependencies & site speed (2022-24) → mobile app platform web team (2025) → job seeker site speed (2026)*
+*Scope grew from tech lead of the global navigation team (2019) to cross-org shared-dependency and site-speed initiatives (2022-24), technical lead of a platform team (2025), and site speed technical lead for the job seeker organization (2026)*
 
 **Platform Development & Architecture:**
 
 * built & productionized the micro-frontend framework behind Indeed's job seeker UI for ~6 years (87 features from 35 independently deployed services across 19 pages in 10 apps), enabling incremental migration to server-rendered React
-* owned the global navigation header and footer served across nearly all Indeed pages (2.2B+ requests per week), and designed JavaScript dependency sharing across decoupled components with webpack module federation, becoming one of Indeed's few subject matter experts in the technology (including [fixing bugs in webpack itself](https://github.com/webpack/webpack/pull/16031))
+* owned the global navigation header and footer served across nearly all Indeed pages (2.2B+ requests per week), and designed JavaScript dependency sharing across decoupled components with webpack module federation, including [fixing bugs in webpack itself](https://github.com/webpack/webpack/pull/16031)
 * authored and led the validation strategy for React Strict DOM, the mobile platform org's top strategic priority, across four web and mobile teams; a 50/50 web/Android/iOS A/B test showed ~20% better web performance and neutral business metrics
 * pioneered an AI-driven migration method: built an iterative LLM agent harness that took the migration codemod from 515 errors to 0 and cut its runtime from 420 to 60 seconds, so the entire React Native codebase could be transformed on every build, A/B tested without halting product development, and kept migration-ready while adoption awaits upstream maturity
 
 **Performance & Optimization:**
 
 * designed and shipped a server-side rendering worker pool for the global navigation and job seeker web services, increasing the share of search-results page users with a good (90+) Lighthouse-equivalent score from real-user data by 18%, advancing the org's site-speed objective 4%, and cutting running instances by 35% (~$115K/year projected savings)
-* delivered an 8% Homepage speed-up via GraphQL bundle optimization and dependency upgrades, offsetting a priority-1 design system upgrade's performance cost so its A/B test came out neutral and it shipped; recognized at VP level
+* delivered an 8% Homepage speed-up via GraphQL bundle optimization and dependency upgrades, offsetting a priority-1 design system upgrade's performance cost so its A/B test came out neutral and it shipped
 * delivered shared-dependency event loop optimizations, including patching webpack to initialize each shared dependency in its own main-thread task (~50ms less Total Blocking Time), achieving 0.68% worldwide site speed improvement, resulting in 0.34% more Homepage job clicks and 0.31% more total job applications
 * unblocked a major web app's React 19 release by comparing long tasks across builds: traced an LCP and layout-shift regression to React's streaming server renderer, and removed forced reflows and a whole-page post-hydration re-render; separately cut desktop search-results page latency by 13-21%
 * eliminated recurring latency alerts for the global navigation service (32 triggers to zero) by tracing slow requests to bad hosts, right-sizing workers and CPU, bounding queue admission, moving retries to the service mesh, and enabling request hedging, cutting p95 latency in one data center from 30 ms to 12.5 ms
@@ -46,7 +46,7 @@ Moved from individual contributor to engineering manager (6 engineers) and back 
 
 **Technical Leadership & Problem Solving:**
 
-* named site speed technical lead for the job seeker product organization, recognized for establishing the metrics and improvements that enabled goal attainment; earlier authored the site speed opportunities analysis that formed its roadmap
+* named site speed technical lead for the job seeker product organization after defining its original site-speed metrics and delivering improvements that helped it reach its goal; earlier authored the opportunities analysis that became its site-speed roadmap
 * architected design system upgrade infrastructure (dual builds and A/B tests across product surfaces) and led the React 18, design system v6, and design system v7 upgrades for job seeker surfaces; for the priority-1 v7 upgrade, root-caused conflicting micro-frontend providers overriding design tokens and held measured site-speed impact to ~2% vs. a projected 30%
 * hardened release safety for the shared JavaScript dependency platform after an upgrade caused a global navigation footer outage, adding A/B release slots, release-candidate CI, cross-version smoke tests, and feature-flag rollback
 * set and later updated the job seeker browser support policy with product and design, retiring fragile polyfills
@@ -58,8 +58,7 @@ Moved from individual contributor to engineering manager (6 engineers) and back 
 
 **Mentorship & Community:**
 
-* mentored engineers across teams on flame-graph analysis, performance triage, debugging, and breaking work into incremental, risk-reducing deliverables, including mentoring an engineer through a transition into software engineering
-* mentored engineers as an AI Champion on AI tooling workflows, MCP server configuration, and prompt engineering, and published engineering blog posts on AI-assisted writing and faster CI pipelines
+* mentored engineers across teams in performance profiling, debugging, incremental delivery, and (as an AI Champion) AI tooling, including coaching an engineer through a transition into software engineering; published internal engineering blog posts on AI-assisted writing and faster CI pipelines
 * guided 100+ external contributors to the global navigation platform through code reviews and technical direction
 
 #### Earlier Indeed Roles (Hiring Products) - August 2015 to March 2019
