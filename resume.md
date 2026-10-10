@@ -10,7 +10,7 @@
 
 * Staff frontend platform engineer with 20+ years at Indeed and Amazon, specializing in web performance, micro-frontend architecture, and developer infrastructure at scale
 * Delivers incrementally, using data and A/B tests to decide whether further investment makes business sense
-* Applies AI-assisted engineering in practice, from LLM-driven migration codemods to an AI tool used by 390+ colleagues
+* Applies AI-assisted engineering in practice, from LLM-driven migration codemods to an AI tool used by 400+ colleagues
 
 ## Skills
 
@@ -53,7 +53,7 @@ Moved from individual contributor to engineering manager (6 engineers) and back 
 
 **Cross-Organizational Impact:**
 
-* pioneered AI-driven developer productivity through TEA (Talent Enablement Automation), growing a self-initiated hackathon project into an evidence-grounded performance-review tool used by 390+ employees across engineering, delivery, and science roles, including 40+ people managers, with 210+ returning users, extensions merged by six other engineers, and users crediting it with major time savings
+* pioneered AI-driven developer productivity through TEA (Talent Enablement Automation), growing a self-initiated hackathon project into an evidence-grounded performance-review tool used by 400+ employees across engineering, delivery, and science roles, including 40+ people managers, with 210+ returning users, extensions merged by six other engineers, and users crediting it with major time savings
 * served as primary technical lead for global navigation and micro-frontend integrations with identity, authentication, employer, international, and mobile teams, and represented the team in a cross-team tech leads forum
 
 **Mentorship & Community:**
