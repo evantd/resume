@@ -29,6 +29,19 @@ The resume also appears on evandower.com (`~/evandower-dot-com`, deployed by Ver
 2. Regenerate the body of `src/pages/resume.astro` with `pandoc -t html5 --wrap=none resume.md`. Drop the `<h1>` (the layout renders it) and keep the "Download as PDF" link.
 3. Run `pnpm build`, then commit and push.
 
+Keep the CV at 2 pages; check with `pdfinfo Evan-Dower-resume.pdf | grep Pages` after rebuilding.
+
+### Syncing Job-Site Profiles
+
+Evan edits these himself (agents draft text; never submit). Each site holds a different copy, so a CV change can need edits in several places:
+
+| Site | What it holds | How to sync |
+|---|---|---|
+| LinkedIn Experience | A **condensed** rewrite of each role (Oct 8, 2026), because a position description is capped at 2,000 characters. Bullets are shortened, some are merged (e.g. React Strict DOM validation + LLM harness), and some CV items are dropped. Skills go in the position's own Skills field, not the description. | Hand-edit the matching condensed bullet; recount characters. |
+| LinkedIn About / headline | Broader positioning text, not CV bullets. | Only if positioning changes. |
+| Indeed | The uploaded PDF **plus** a structured Indeed Resume parsed from it, with full CV bullets (Indeed's AI rewrite was rejected via "Restore original"). | Replace the PDF, then edit the same bullet in the structured resume. |
+| Seek | The uploaded resumé PDF, a **700-character** Personal Summary, and Career History descriptions that reuse the **LinkedIn condensed** text. | Replace the PDF; edit Career History to match LinkedIn; the summary only if positioning changes. |
+
 ### Removing Indeed-Specific Jargon
 
 **Critical**: This resume must be readable outside Indeed. Replace jargon with clear descriptions:
