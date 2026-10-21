@@ -58,7 +58,7 @@ Moved from individual contributor to engineering manager (6 engineers) and back 
 
 **Mentorship & Community:**
 
-* mentored engineers across teams in performance profiling, debugging, incremental delivery, and (as an AI Champion) AI tooling, including coaching an engineer through a transition into software engineering; published internal engineering blog posts on AI-assisted writing and faster CI pipelines
+* mentored engineers across teams in performance profiling, debugging, incremental delivery, and AI tooling, helping drive AI adoption beyond my team, including coaching an engineer through a transition into software engineering; published internal engineering blog posts on AI-assisted writing and faster CI pipelines
 * guided 100+ external contributors to the global navigation platform through code reviews and technical direction
 
 #### Earlier Indeed Roles (Hiring Products) - August 2015 to March 2019
