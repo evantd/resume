@@ -46,7 +46,7 @@ Moved from individual contributor to engineering manager (6 engineers) and back 
 
 **Technical Leadership & Problem Solving:**
 
-* named site speed technical lead for the job seeker product organization (a top-priority KPI) after defining its original site-speed metrics and delivering improvements that helped it reach its goal; raised the share of mobile search-results page loads with green (90+) scores from 84.0% to 85.5%; earlier authored the opportunities analysis that became its site-speed roadmap
+* named site speed technical lead for the job seeker product organization (a top-priority KPI) after helping develop its original site-speed metrics and delivering improvements that helped it reach its goal; raised the share of mobile search-results page loads with green (90+) scores from 84.0% to 85.5%; earlier authored the opportunities analysis that became its site-speed roadmap
 * architected design system upgrade infrastructure (dual builds and A/B tests across product surfaces) and led the React 18, design system v6, and design system v7 upgrades for job seeker surfaces; for the priority-1 v7 upgrade, root-caused conflicting micro-frontend providers overriding design tokens and held measured site-speed impact to ~2% vs. a projected 30%
 * hardened release safety for the shared JavaScript dependency platform after an upgrade caused a global navigation footer outage, adding A/B release slots, release-candidate CI, cross-version smoke tests, and feature-flag rollback
 * set and later updated the job seeker browser support policy with product and design, retiring fragile polyfills
